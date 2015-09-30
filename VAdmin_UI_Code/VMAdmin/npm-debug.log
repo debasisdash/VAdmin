@@ -1,0 +1,216 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose install where, deps [ '/Users/Neeraj/Documents/workspace/VMAdmin',
+4 verbose install   [ 'express', 'ejs', 'sqlite' ] ]
+5 verbose install where, peers [ '/Users/Neeraj/Documents/workspace/VMAdmin', [] ]
+6 info preinstall VMAdmin@0.0.1
+7 verbose already installed skipping express@3.2.6 /Users/Neeraj/Documents/workspace/VMAdmin
+8 verbose already installed skipping ejs@* /Users/Neeraj/Documents/workspace/VMAdmin
+9 silly cache add args [ 'sqlite@*', null ]
+10 verbose cache add spec sqlite@*
+11 silly cache add parsed spec { raw: 'sqlite@*',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'sqlite',
+11 silly cache add   rawSpec: '*',
+11 silly cache add   spec: '*',
+11 silly cache add   type: 'range' }
+12 verbose addNamed sqlite@*
+13 silly addNamed semver.valid null
+14 silly addNamed semver.validRange *
+15 silly addNameRange { name: 'sqlite', range: '*', hasData: false }
+16 silly mapToRegistry name sqlite
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/sqlite
+20 verbose addNameRange registry:https://registry.npmjs.org/sqlite not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/sqlite
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 1:27:49 AM
+24 verbose request id 38bf9195b621d687
+25 verbose etag "3UQ258ZF5RS8MIMA596MCQUT9"
+26 http request GET https://registry.npmjs.org/sqlite
+27 http 304 https://registry.npmjs.org/sqlite
+28 silly get cb [ 304,
+28 silly get   { date: 'Fri, 01 May 2015 08:27:49 GMT',
+28 silly get     server: 'Apache',
+28 silly get     via: '1.1 varnish',
+28 silly get     'cache-control': 'max-age=60',
+28 silly get     etag: '"3UQ258ZF5RS8MIMA596MCQUT9"',
+28 silly get     age: '0',
+28 silly get     'x-served-by': 'cache-lax1420-LAX',
+28 silly get     'x-cache': 'MISS',
+28 silly get     'x-cache-hits': '0',
+28 silly get     'x-timer': 'S1430468869.524027,VS0,VE79',
+28 silly get     vary: 'Accept',
+28 silly get     'content-length': '0',
+28 silly get     'keep-alive': 'timeout=10, max=50',
+28 silly get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/sqlite from cache
+30 verbose get saving sqlite to /tmp/npm-501/.npm/registry.npmjs.org/sqlite/.cache.json
+31 silly addNameRange number 2 { name: 'sqlite', range: '*', hasData: true }
+32 silly addNameRange versions [ 'sqlite', [ '1.0.2', '1.0.3', '1.0.4' ] ]
+33 verbose addNamed sqlite@1.0.4
+34 silly addNamed semver.valid 1.0.4
+35 silly addNamed semver.validRange 1.0.4
+36 silly cache afterAdd sqlite@1.0.4
+37 verbose afterAdd /tmp/npm-501/.npm/sqlite/1.0.4/package/package.json not in flight; writing
+38 verbose afterAdd /tmp/npm-501/.npm/sqlite/1.0.4/package/package.json written
+39 silly install resolved [ { name: 'sqlite',
+39 silly install resolved     description: 'SQLite3 bindings for Node',
+39 silly install resolved     version: '1.0.4',
+39 silly install resolved     homepage: 'http://github.com/orlandov/node-sqlite',
+39 silly install resolved     author:
+39 silly install resolved      { name: 'Orlando Vazquez',
+39 silly install resolved        email: 'ovazquez@gmail.com',
+39 silly install resolved        url: 'http://2wycked.net' },
+39 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+39 silly install resolved     repository:
+39 silly install resolved      { type: 'git',
+39 silly install resolved        url: 'git://github.com/orlandov/node-sqlite.git' },
+39 silly install resolved     main: './sqlite',
+39 silly install resolved     engines: { node: '>=0.2.0' },
+39 silly install resolved     scripts: { test: './run-tests', preinstall: 'node-waf configure build' },
+39 silly install resolved     licenses: [ [Object] ],
+39 silly install resolved     _id: 'sqlite@1.0.4',
+39 silly install resolved     _engineSupported: true,
+39 silly install resolved     _npmVersion: '0.3.12',
+39 silly install resolved     _nodeVersion: 'v0.5.0-pre',
+39 silly install resolved     directories: {},
+39 silly install resolved     files: [],
+39 silly install resolved     _defaultsLoaded: true,
+39 silly install resolved     dist:
+39 silly install resolved      { shasum: '046d07908f37ec306723b4d347e6e1a8f4cce98e',
+39 silly install resolved        tarball: 'http://registry.npmjs.org/sqlite/-/sqlite-1.0.4.tgz' },
+39 silly install resolved     _shasum: '046d07908f37ec306723b4d347e6e1a8f4cce98e',
+39 silly install resolved     _resolved: 'https://registry.npmjs.org/sqlite/-/sqlite-1.0.4.tgz',
+39 silly install resolved     _from: 'sqlite@*',
+39 silly install resolved     bugs: { url: 'https://github.com/orlandov/node-sqlite/issues' },
+39 silly install resolved     readme: 'ERROR: No README data found!' } ]
+40 info install sqlite@1.0.4 into /Users/Neeraj/Documents/workspace/VMAdmin
+41 info installOne sqlite@1.0.4
+42 verbose installOne of sqlite to /Users/Neeraj/Documents/workspace/VMAdmin not in flight; installing
+43 verbose lock using /tmp/npm-501/.npm/_locks/sqlite-e69b4d18ca1e97c7.lock for /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite
+44 silly install write writing sqlite 1.0.4 to /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite
+45 silly cache addNamed cb sqlite@1.0.4
+46 verbose unbuild node_modules/sqlite
+47 silly gentlyRm /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite is being purged from base /Users/Neeraj/Documents/workspace/VMAdmin
+48 verbose gentlyRm don't care about contents; nuking /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite
+49 verbose tar unpack /tmp/npm-501/.npm/sqlite/1.0.4/package.tgz
+50 verbose tar unpacking to /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite
+51 silly gentlyRm /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite is being purged
+52 verbose gentlyRm don't care about contents; nuking /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite
+53 silly gunzTarPerm modes [ '755', '644' ]
+54 silly gunzTarPerm extractEntry
+55 silly gunzTarPerm extractEntry .gitignore
+56 silly gunzTarPerm extractEntry .gitmodules
+57 silly gunzTarPerm extractEntry async-testing/
+58 silly gunzTarPerm extractEntry build.sh
+59 silly gunzTarPerm extractEntry deps/
+60 silly gunzTarPerm extractEntry package.json
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm extractEntry run-tests
+63 silly gunzTarPerm extractEntry sqlite.js
+64 silly gunzTarPerm extractEntry sqlite3_bindings.node
+65 silly gunzTarPerm extractEntry src/
+66 silly gunzTarPerm extractEntry tests/
+67 silly gunzTarPerm extractEntry wscript
+68 silly gunzTarPerm extractEntry tests/lib/
+69 silly gunzTarPerm extractEntry tests/old/
+70 silly gunzTarPerm extractEntry tests/test-affected-rows.js
+71 silly gunzTarPerm extractEntry tests/test-bind-placeholders.js
+72 silly gunzTarPerm extractEntry tests/test-bind-strings.js
+73 silly gunzTarPerm extractEntry tests/test-last-inserted-id.js
+74 silly gunzTarPerm extractEntry tests/test-prepare.js
+75 silly gunzTarPerm extractEntry tests/test-statement-fetchall.js
+76 silly gunzTarPerm extractEntry tests/test-statement-step.js
+77 silly gunzTarPerm extractEntry tests/old/speedtest-low-parallel-binds.js
+78 warn excluding symbolic link sqlite3_bindings.node -> build/default/sqlite3_bindings.node
+79 silly gunzTarPerm extractEntry tests/old/speedtest-low-parallel.js
+80 silly gunzTarPerm extractEntry tests/old/speedtest-low.js
+81 silly gunzTarPerm extractEntry tests/old/speedtest.js
+82 silly gunzTarPerm extractEntry tests/old/speedtest.rb
+83 silly gunzTarPerm extractEntry tests/old/speedtest2.js
+84 silly gunzTarPerm extractEntry tests/old/speedtest2.rb
+85 silly gunzTarPerm extractEntry tests/old/test2.js
+86 silly gunzTarPerm extractEntry tests/lib/common.js
+87 silly gunzTarPerm extractEntry src/database.cc
+88 silly gunzTarPerm extractEntry src/database.h
+89 silly gunzTarPerm extractEntry src/sqlite3_bindings.cc
+90 silly gunzTarPerm extractEntry src/sqlite3_bindings.h
+91 silly gunzTarPerm extractEntry src/statement.cc
+92 silly gunzTarPerm extractEntry src/statement.h
+93 silly gunzTarPerm extractEntry deps/mpool-2.1.0/
+94 silly gunzTarPerm extractEntry deps/sqlite/
+95 silly gunzTarPerm extractEntry deps/sqlite/._shell.c
+96 silly gunzTarPerm extractEntry deps/sqlite/shell.c
+97 silly gunzTarPerm extractEntry deps/sqlite/._sqlite3.c
+98 silly gunzTarPerm extractEntry deps/sqlite/sqlite3.c
+99 silly gunzTarPerm extractEntry deps/sqlite/._sqlite3.h
+100 silly gunzTarPerm extractEntry deps/sqlite/sqlite3.h
+101 silly gunzTarPerm extractEntry deps/sqlite/._sqlite3ext.h
+102 silly gunzTarPerm extractEntry deps/sqlite/sqlite3ext.h
+103 silly gunzTarPerm extractEntry deps/mpool-2.1.0/ChangeLog.1
+104 silly gunzTarPerm extractEntry deps/mpool-2.1.0/Makefile
+105 silly gunzTarPerm extractEntry deps/mpool-2.1.0/mpool.c
+106 silly gunzTarPerm extractEntry deps/mpool-2.1.0/mpool.h
+107 silly gunzTarPerm extractEntry deps/mpool-2.1.0/mpool_loc.h
+108 silly gunzTarPerm extractEntry deps/mpool-2.1.0/mpool_t.c
+109 silly gunzTarPerm extractEntry deps/mpool-2.1.0/NEWS
+110 silly gunzTarPerm extractEntry deps/mpool-2.1.0/README
+111 silly gunzTarPerm extractEntry async-testing/async_testing.js
+112 silly gunzTarPerm extractEntry async-testing/AUTHORS
+113 silly gunzTarPerm extractEntry async-testing/examples/
+114 silly gunzTarPerm extractEntry async-testing/LICENSE
+115 silly gunzTarPerm extractEntry async-testing/node-async-test
+116 silly gunzTarPerm extractEntry async-testing/README.markdown
+117 silly gunzTarPerm extractEntry async-testing/todo.txt
+118 silly gunzTarPerm extractEntry async-testing/examples/test-readme.js
+119 silly gunzTarPerm extractEntry async-testing/examples/test-suites.js
+120 info preinstall sqlite@1.0.4
+121 verbose unsafe-perm in lifecycle true
+122 info sqlite@1.0.4 Failed to exec preinstall script
+123 info sqlite@1.0.4 Failed to exec preinstall script
+124 verbose unlock done using /tmp/npm-501/.npm/_locks/sqlite-e69b4d18ca1e97c7.lock for /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite
+125 verbose stack Error: sqlite@1.0.4 preinstall: `node-waf configure build`
+125 verbose stack spawn sh ENOENT
+125 verbose stack     at exports._errnoException (util.js:746:11)
+125 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1053:32)
+125 verbose stack     at child_process.js:1144:20
+125 verbose stack     at process._tickCallback (node.js:355:11)
+126 verbose pkgid sqlite@1.0.4
+127 verbose cwd /Users/Neeraj/Documents/workspace/VMAdmin
+128 error Darwin 14.0.0
+129 error argv "node" "/usr/local/bin/npm" "install"
+130 error node v0.12.2
+131 error npm  v2.7.4
+132 error file sh
+133 error path sh
+134 error code ELIFECYCLE
+135 error errno ENOENT
+136 error syscall spawn sh
+137 error sqlite@1.0.4 preinstall: `node-waf configure build`
+137 error spawn sh ENOENT
+138 error Failed at the sqlite@1.0.4 preinstall script 'node-waf configure build'.
+138 error This is most likely a problem with the sqlite package,
+138 error not with npm itself.
+138 error Tell the author that this fails on your system:
+138 error     node-waf configure build
+138 error You can get their info via:
+138 error     npm owner ls sqlite
+138 error There is likely additional logging output above.
+139 verbose exit [ 1, true ]
+140 verbose unbuild node_modules/sqlite
+141 info preuninstall sqlite@1.0.4
+142 verbose unlock done using /tmp/npm-501/.npm/_locks/sqlite-e69b4d18ca1e97c7.lock for /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite
+143 info uninstall sqlite@1.0.4
+144 verbose unbuild rmStuff sqlite@1.0.4 from /Users/Neeraj/Documents/workspace/VMAdmin/node_modules
+145 info postuninstall sqlite@1.0.4
+146 silly gentlyRm /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite is being purged from base /Users/Neeraj/Documents/workspace/VMAdmin
+147 verbose gentlyRm don't care about contents; nuking /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite
+148 silly vacuum-fs purging /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite
+149 silly vacuum-fs quitting because other entries in /Users/Neeraj/Documents/workspace/VMAdmin/node_modules
+150 verbose unbuild node_modules/sqlite
+151 silly gentlyRm /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite is being purged from base /Users/Neeraj/Documents/workspace/VMAdmin
+152 verbose gentlyRm don't care about contents; nuking /Users/Neeraj/Documents/workspace/VMAdmin/node_modules/sqlite
